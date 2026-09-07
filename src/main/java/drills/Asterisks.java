@@ -14,8 +14,13 @@ public class Asterisks {
      * @return a string of n asterisks — {@code ""} when n is 0
      */
     public String asterisks(int n) {
-
-        return null;
-
+        char asterisk = '*' ;
+       // use string builder to slowly add the asterisks depending on n
+        StringBuilder result = new StringBuilder();
+        // go thru and add to the string builder
+        for (int i = 0; i < n; i++) {
+             result.append(asterisk);
+            }
+        return result.toString();
+        }
     }
-}
