@@ -17,8 +17,14 @@ public class ShowMeTheNumbers {
      * @return the numbers 1..n, each followed by "\n" — {@code ""} when n is 0
      */
     public String count(int n) {
-
-        return null;
+        String slash = "\n" ;
+        // start with what needs to be added
+        StringBuilder result = new StringBuilder();
+        // string builder stores the result of the numbers going up to n with the "\n"
+        for (int i = 1; i <= n; i++) {
+            result.append(i).append(slash);
+        }
+        return result.toString();
 
     }
 }
