@@ -14,8 +14,12 @@ public class Asterisks {
      * @return a string of n asterisks — {@code ""} when n is 0
      */
     public String asterisks(int n) {
-
-        return null;
+        //Start
+        String numofasterisks = "";
+        for (int i = 1; i <= n; i++) {
+            numofasterisks = numofasterisks + "*";
+        }
+        return numofasterisks;
 
     }
 }
