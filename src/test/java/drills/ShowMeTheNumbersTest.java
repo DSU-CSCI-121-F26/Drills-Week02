@@ -7,24 +7,6 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class ShowMeTheNumbersTest {
 
-    public class ShowMeTheNumbers {
-
-        public String count (int n) {
-            String result = "";
-
-            for (int i = 1; i <= n; i++) {
-                result += i + "\n";
-            }
-
-            return result;
-        }
-    }
-
-
-
-
-
-
     private final ShowMeTheNumbers drill = new ShowMeTheNumbers();
 
     @Test

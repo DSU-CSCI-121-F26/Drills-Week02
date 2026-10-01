@@ -7,23 +7,6 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class AsterisksTest {
 
-    public class Asterisks {
-
-        public String asterisks(int n) {
-            String result = "";
-
-            for (int i = 0; i < n; i++) {
-                result += "*";
-            }
-
-            return result;
-        }
-    }
-
-
-
-
-
 
     private final Asterisks drill = new Asterisks();
 
