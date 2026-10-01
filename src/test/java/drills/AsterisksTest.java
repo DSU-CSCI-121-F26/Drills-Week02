@@ -7,12 +7,14 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class AsterisksTest {
 
+
     private final Asterisks drill = new Asterisks();
 
     @Test
     @DisplayName("five asterisks")
-    void fiveAsterisks() {
+     void asterisksTest(){
         assertEquals("*****", drill.asterisks(5));
+
     }
 
     @Test

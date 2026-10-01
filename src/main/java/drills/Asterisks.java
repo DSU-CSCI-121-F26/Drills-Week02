@@ -15,7 +15,15 @@ public class Asterisks {
      */
     public String asterisks(int n) {
 
-        return null;
+        //Stringbuilder sb = new Stringbuilder();
+        String result = "";
+
+        for (int i = 0; i < n; i++) {
+            //sb.append("*");
+            result += "*";
+        }
+        return result;
+
 
     }
 }
